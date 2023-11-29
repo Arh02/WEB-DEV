@@ -1,0 +1,50 @@
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+    width: 40%;
+    
+}
+h5{
+    display: block;
+}
+.project-item{
+    background: var(--background);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.project-item:hover{
+    border-color: var(--primary-var);
+    background: transparent;
+}
+
+.swiper-button-prev{
+    color: var(--primary);
+}
+
+.swiper-button-next{
+    color: var(--primary);
+}
+
+.project-item-img{
+    border-radius: 1.5rem;
+    justify-content: center;
+    width: 200px;
+    display: inline-block;
+}
+.project-item h3{
+    margin: 1.2rem 0 2rem ;
+}
+
+.project-item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center
+
+}
+
